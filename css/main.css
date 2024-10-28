@@ -1,0 +1,56 @@
+html {
+  font-family: 'Abril Fatface', serif;
+  background-color: #131313;
+  color: #ddd;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-weight: 400;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  line-height: 0.5em;
+}
+
+h3 {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 2em;
+}
+
+span {
+  color: #55e7d3;
+}
+
+p {
+  font-family: 'Tajawal', sans-serif;
+  color: #bbb;
+  font-style: italic;
+}
+
+.photo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  background-image: url('/img/photo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-bottom: 0.6em;
+}
